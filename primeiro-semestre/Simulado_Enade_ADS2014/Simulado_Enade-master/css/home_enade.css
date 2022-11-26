@@ -1,0 +1,123 @@
+*  {
+    margin:0;   /* Setando para todos margin 0 é padding 0 */
+    padding:0;  
+}
+
+body { /* Definindo a tag body*/
+  background: rgb(217, 233, 241); /* Colocando uma cor de fundo para a página*/
+  height: 100%;   /* Delimitando uma altura de 100% da página*/
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* Deixando todo o contéudo da tag body com esse estilo de fonte*/
+}
+
+header { /* Definindo a tag header*/
+    background-color: rgb(0, 73, 136); /* Passando uma cor para o header*/
+    margin: none; /* Deixando sem margin*/
+    height: 40px;  /* E colocando uma altura de 40px nele*/
+}
+
+#logo_enade { /* Imagem ENADE*/
+    width: 105px; /* Definindo uma largura de 105px para ela*/
+    -webkit-user-drag: none; /* Defindo um WebKit que nada mais é do que um suporte automático, neste caso estamos colocando ele para que a imagem não seja manipulada*/
+    
+}
+
+#logo_inep  { /* Imagem INEP */
+    width: 80px; /*  Definindo a largura de 80px*/
+    -webkit-user-drag: none; /* Defindo um WebKit que nada mais é do que um suporte automático, neste caso estamos colocando ele para que a imagem não seja manipulada*/
+}
+
+#logo_enade_completo { /*  Div logo ENADE*/
+    background-color: white; /*  Colocando cor na DIV*/
+    text-align: center; /* Alinhando o item da DIV ao centro nessa caso a imagem*/
+    -webkit-user-drag: none; /* Defindo um WebKit que nada mais é do que um suporte automático, neste caso estamos colocando ele para que a imagem não seja manipulada*/
+    padding: 3px; /* Definindo um espaçamento interno de 3px*/
+    margin: none; /* Deixando sem margin*/
+}
+
+/* #explicacao_enade {
+   background: white;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+.paragrafos { /* Definindo os paragrafos*/
+   /* Definindo a fonte*/
+  font-size: 20px;
+  text-align: justify; /* Deixando os textos justificados*/
+  margin-left: 315px; /* Colocando uma margin a esquerda de 315px*/
+  margin-right: 315px; /* O mesmo fazendo para a margin da direita fazendo com que ela fique alinhada*/
+  margin-top: 20px; /* */
+  font-style: italic;
+}
+
+.p-fonte { /* Definindo os paragrafos*/
+   /* Definindo a fonte*/
+  font-size: 20px;
+  text-align: justify; /* Deixando os textos justificados*/
+  margin-left: 315px; /* Colocando uma margin a esquerda de 315px*/
+  margin-right: 315px; /* O mesmo fazendo para a margin da direita fazendo com que ela fique alinhada*/
+  margin-top: 20px; /* */
+}
+
+
+.div_links { /* Container da div dos links*/
+  margin-top: 20px;
+  text-align: center; /* Align Créditos*/
+}
+
+
+.paragrafos1 { /* Definindo o paragrafos dos links*/ /* Colocando essa fonte para eles*/
+  font-size: 20px;
+  text-align: center;/* Deixando eles alinhados ao centro*/
+  margin: 2%; /* E setando uma margin geral de 2%*/
+}
+
+h1 { /* Definindo tag H1*/
+  text-align: center; /* Deixando o texto alinhado no centro*/
+  margin-top: 20px;  /* e definindo uma margin do topo de 20px*/
+}
+
+h2 { /* Definindo tag H2*/
+  text-align: center; /* Deixando o texto alinhado no centro*/
+  margin: 2%; /* E setando uma margin geral de 2%*/
+}
+
+.container-simulado { /* Container para o botão do simulado*/
+  margin-top: 5px; /* Margin do topo de 5px*/
+  text-align: center; /* Alinhando ele ao centro*/
+}
+
+.button-simulado { /* Estilizando o botão*/
+  padding: 10px; /* Colocando uma margin interna geral de 10px*/
+  background-color: rgb(0, 73, 136); /* Colocando cor nele*/
+  color: white; /* Cor no nome do botão*/
+  border-radius: 10px; /* Arredondando os cantos*/
+  font-size: 20px; /* Tamanho da fonte*/
+  margin: 2%; /* Margin externa de 2% geral*/
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* Colocando a fonte ARIAL*/
+}
+
+.button-simulado:hover { /* Mudando a cor do botão ao passar o mouse por cima*/
+  background-color: orange; /* Colocando cor*/
+}
+
+footer { /* Definindo o rodapé para ficar fixo na parte de baixo da página*/
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    margin-top: 20px;
+    background-color: rgb(0, 73, 136);
+    margin:0;
+    padding:0;
+    font-size: 17px;
+    color: white;
+  }
+
+  footer a { /* Definindo os links dentro do rodapé*/
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    font-size: 17px;
+    color: orange;
+}
