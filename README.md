@@ -1,1 +1,5 @@
-# faculdade
+# Códigos da faculdade. 
+#
+# 👨‍🎓
+#
+# College codes.
